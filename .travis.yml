@@ -3,10 +3,9 @@ install: true
 
 jdk:
   - oraclejdk9
-before_install: cd QuickSortAlgo
+before_install: cd mattlijo/QuickSortAlgo
 
 script:
   - pwd
   - ls
-  - cd mattlijo/QuickSortAlgo 
   - ./gradlew build --scan -s
