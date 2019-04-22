@@ -3,6 +3,7 @@ install: true
 
 jdk:
   - oraclejdk9
+before_script: cd QuickSortAlgo
 
 script:
   - ./gradlew build --scan -s
