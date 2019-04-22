@@ -8,4 +8,5 @@ script:
   - pwd
   - ls
   - cd QuickSortAlgorithm
+  - chmod +x gradlew
   - ./gradlew build --scan -s
