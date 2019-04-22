@@ -1,4 +1,7 @@
+[![Build Status](https://travis-ci.org/mattlijo/QuickSortAlgo.png)](https://travis-ci.org/mattlijo/QuickSortAlgo)
+
 QuickSort
+
 QuickSort is a sorting algorithm developed by Tony Hoare that, on average, makes O(n log n) comparisons to sort n items. It is also known as partition-exchange sort because of its use of the partition algorithm. In the worst case, it makes O(n2) comparisons, though this behaviour is rare. QuickSort is often faster in practice than other O(n log n) algorithms.
 
 Partition Algorithm
