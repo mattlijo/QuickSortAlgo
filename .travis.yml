@@ -1,1 +1,8 @@
 language: java
+install: true
+
+jdk:
+  - oraclejdk9
+
+script:
+  - ./gradlew build --scan -s
