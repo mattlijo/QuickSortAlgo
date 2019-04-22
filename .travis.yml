@@ -7,4 +7,5 @@ jdk:
 script:
   - pwd
   - ls
+  - cd QuickSortAlgorithm
   - ./gradlew build --scan -s
