@@ -36,3 +36,7 @@ allprojects{
 	targetCompatibility = '10'
 	sourceCompatibility = '10'
 }
+buildScan {
+	licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+	licenseAgree = 'yes'
+}
