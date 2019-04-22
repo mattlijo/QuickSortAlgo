@@ -6,5 +6,5 @@ jdk:
 before_install: cd QuickSortAlgo
 
 script:
-  - cd QuickSortAlgo 
+  - cd mattlijo/QuickSortAlgo 
   - ./gradlew build --scan -s
